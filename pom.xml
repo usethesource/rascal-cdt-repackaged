@@ -7,10 +7,10 @@
     
     <packaging>eclipse-plugin</packaging>
 
-	<scm>
-		<developerConnection>scm:git:https://github.com/usethesource/rascal-p2-dependencies-repackaged</developerConnection>
-         <tag>v0.1.0</tag>
-  </scm>
+    <scm>
+        <developerConnection>scm:git:https://github.com/usethesource/rascal-cdt-repackaged</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
 
        <properties>
            <scm-plugin-version>1.9.5</scm-plugin-version>
