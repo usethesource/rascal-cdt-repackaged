@@ -14,20 +14,20 @@
 
        <properties>
            <scm-plugin-version>1.9.5</scm-plugin-version>
-           <tycho-version>1.4.0</tycho-version>
+           <tycho-version>4.0.0</tycho-version>
        </properties>
 
        <repositories>
            <repository>
-               <id>tm-10-5</id>
+               <id>cdt_release</id>
                <layout>p2</layout>
-               <url>https://download.eclipse.org/tools/cdt/releases/10.5</url>
+               <url>https://download.eclipse.org/tools/cdt/releases/11.4/cdt-11.4.0/</url>
            </repository>
 
            <repository>
-               <id>eclipse_2020-03</id>
+               <id>eclipse_release</id>
                <layout>p2</layout>
-               <url>http://download.eclipse.org/releases/2020-03/</url>
+               <url>https://download.eclipse.org/releases/2023-12/202312061001/</url>
            </repository>
        </repositories>
 
@@ -36,7 +36,7 @@
             <plugin>
                 <groupId>org.eclipse.tycho</groupId>
                 <artifactId>tycho-maven-plugin</artifactId>
-                <version>1.4.0</version>
+                <version>${tycho-version}</version>
                 <extensions>true</extensions>
             </plugin>
             <plugin>
