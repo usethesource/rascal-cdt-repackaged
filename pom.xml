@@ -3,13 +3,13 @@
     
     <groupId>org.rascalmpl</groupId>
     <artifactId>rascal-cdt-repackaged</artifactId>
-    <version>0.2.0-SNAPSHOT</version>
+    <version>11.4.0</version>
     
     <packaging>eclipse-plugin</packaging>
 
     <scm>
         <developerConnection>scm:git:https://github.com/usethesource/rascal-cdt-repackaged</developerConnection>
-        <tag>HEAD</tag>
+        <tag>v11.4.0</tag>
     </scm>
 
        <properties>
