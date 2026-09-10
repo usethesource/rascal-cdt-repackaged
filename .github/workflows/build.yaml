@@ -15,7 +15,7 @@ env:
 jobs:
   builds:
     runs-on: ubuntu-latest
-
+    environment: ${{ startsWith(github.ref, 'refs/tags/v') && 'deployments' || '' }} 
     steps:
       - uses: actions/checkout@v2
       - name: Set up JDK 
